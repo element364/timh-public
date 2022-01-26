@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="stylesheet" href="/timh-public/_app/assets/start-45809b4a.css">
+		<link rel="stylesheet" href="/timh-public/_app/assets/pages/__layout.svelte-dbbea08a.css">
+		<link rel="stylesheet" href="/timh-public/_app/assets/pages/index.svelte-da4a5f17.css">
+		<link rel="modulepreload" href="/timh-public/_app/start-6138787e.js">
+		<link rel="modulepreload" href="/timh-public/_app/chunks/vendor-9e365313.js">
+		<link rel="modulepreload" href="/timh-public/_app/pages/__layout.svelte-19326960.js">
+		<link rel="modulepreload" href="/timh-public/_app/pages/index.svelte-c6197609.js">
+
+		<script type="module">
+			import { start } from "/timh-public/_app/start-6138787e.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/timh-public","assets":"/timh-public"},
+				session: {},
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/timh-public/_app/pages/__layout.svelte-19326960.js"),
+						import("/timh-public/_app/pages/index.svelte-c6197609.js")
+					],
+					url: new URL("http://prerender/"),
+					params: {}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+</div>
+	</body>
+</html>
